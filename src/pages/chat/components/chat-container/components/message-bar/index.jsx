@@ -21,6 +21,7 @@ const MessageBar = () => {
         document.removeEventListener("mousedown",hdlClickOutsideEmoji)
        }
     },[emojiRef])
+    
     const hdlEmoji =(emoji)=>{
     setMessage((msg)=> msg + emoji.emoji)
     }
